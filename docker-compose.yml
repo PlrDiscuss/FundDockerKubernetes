@@ -19,3 +19,26 @@ services:
       - ASPNETCORE_URLS=http://*:5000
     ports:
       - "5000:5000"
+
+  globomantics.ui:
+    build:
+      context: .
+      dockerfile: Globomantics.Core/Dockerfile
+    environment:
+      - ASPNETCORE_URLS=http://*:5005
+    ports:
+      - "5005:5005"
+
+  globoseq:
+    image: datalust/seq
+    restart: unless-stopped
+    ports:
+      - "5342:80"
+    environment:
+      - ACCEPT_EULA=Y
+
+  globosmtp:
+    image: rnwood/smtp4dev
+    restart: always
+    ports:
+      - "5010:80"
