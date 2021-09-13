@@ -23,6 +23,10 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nginx", "nginx", "{A948CC1E-4218-4442-8FF1-CA3513B41BE7}"
 	ProjectSection(SolutionItems) = preProject
+		nginx\id-local.conf = nginx\id-local.conf
+		nginx\id-local.crt = nginx\id-local.crt
+		nginx\id-local.key = nginx\id-local.key
+		nginx\id-local.pfx = nginx\id-local.pfx
 		nginx\nginx.Dockerfile = nginx\nginx.Dockerfile
 		nginx\nginx.local.conf = nginx\nginx.local.conf
 	EndProjectSection
