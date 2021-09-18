@@ -13,7 +13,7 @@ services:
       globonet:
         aliases:
           - "id-local.globomantics.com"
-          - "wwww-local.globomantics.com"
+          - "www-local.globomantics.com"
 
   globomantics.identityserver:
     image: ${DOCKER_REGISTRY-}globomanticsidentityserver
