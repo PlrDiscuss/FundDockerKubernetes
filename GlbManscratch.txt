@@ -4,11 +4,5 @@ https://www‑local.globomantics.com:44395
 
 https://www-local.globomantics.com:44395
 
-,
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft": "Warning",
-      "Microsoft.Hosting.Lifetime": "Information"
-    }
-  }
+https://id-local.globomantics.com:44395
+
